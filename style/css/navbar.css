@@ -1,0 +1,47 @@
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    background-color: rgb(226, 226, 226);
+    padding: 5px;
+    flex-wrap: wrap;
+    box-shadow: 0px 7px 11px -4px rgba(0,0,0,0.97);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.nav-button{
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);   
+    background-color: rgb(199, 199, 199);
+    box-shadow: -4px 0px 15px 0px rgba(0,0,0,0.53);
+    transition: 0.4s;
+}
+.nav-container a:nth-child(1):hover{
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+}
+.nav-container a:nth-child(2):hover{
+    background-color: #c02418;
+    color: black;
+    border-radius: 30px;
+}
+.nav-container a:nth-child(3):hover{
+    background-color: #01aeea;
+    color: white;
+    border-radius: 30px;
+}
+.nav-container a:nth-child(4):hover{
+    background-color: #006437;
+    color: white;
+    border-radius: 30px;
+}
+.nav-container a:nth-child(5):hover{
+    background-color: #004094;
+    color: white;
+    border-radius: 30px;
+}

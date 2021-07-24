@@ -1,0 +1,13 @@
+.nav-container a:nth-child(4){
+    background-color: #006437;
+    color: white;
+    border-radius: 30px;
+}
+.lances-container{
+    background-image: linear-gradient(to right, #006437 , #004626);
+}
+.lances-container p{
+    background-image: linear-gradient(to right, #006437 , #004626);
+    padding: 20px; 
+    box-shadow: 0px 8px 15px 1px rgba(0,0,0,0.72);
+}

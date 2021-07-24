@@ -1,0 +1,47 @@
+@keyframes backgroundanim {
+    100%{
+        background-position: 722px 722px;
+    }
+}
+html{
+    /* font-size: 100%; */
+}
+*{
+    margin: 0;
+    padding: 0;
+    border:0;
+    box-sizing: border-box;
+    vertical-align:baseline;
+    list-style:none;
+    text-decoration: none;
+}
+body{
+    max-width: 100vw;
+    overflow-x: hidden;
+    /* background-image: url("../images/background.png"), linear-gradient(#3779A6, #FB340E 70%, #FCE505); */
+    /* background-image: url("../images/background.png"); */
+    /* background-color: #22455c; */
+    background-repeat: repeat;
+    /* background-size: 100%; */
+    /* background-position: center; */
+    /* min-height: 5800px; */
+    /* animation: backgroundanim 5s linear infinite; */
+    font-size: 62.5%;
+}
+
+@font-face {
+    font-family: 'Aveline';
+    src: url('../fonts/Aveline Script.ttf');
+}
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('../fonts/BebasNeue-Regular.ttf');
+}
+@font-face {
+    font-family: 'Billy Ohio';
+    src: url('../fonts/BILLY_OHIO.OTF');
+}
+@font-face {
+    font-family: 'Urban';
+    src: url('../fonts/URBANJUNGLEDEMO.OTF');
+}
